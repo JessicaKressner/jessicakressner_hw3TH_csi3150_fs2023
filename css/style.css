@@ -1,0 +1,335 @@
+/* set browser settings to default */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* applies to all content */
+body {
+  background-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* style section 1 of website */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/sunset.jpeg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 600px;
+}
+
+.section1Contents img {
+  margin-top: 70px;
+}
+/* style title of section 1 */
+.section1Contents {
+  font-size: 48px;
+  text-align: center;
+  align-items: center;
+  height: 200px;
+  color: aqua;
+}
+
+/* style small title of section 1 */
+#section1Details {
+  font-size: 28px;
+  color: bisque;
+}
+
+/* style section 2 of website */
+.section2 {
+  font-size: 48px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  background-image: url(../images/volcano.jpeg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 600px;
+}
+
+/* style title of section 2 */
+#section2Title {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+/* style description of section 2 */
+#section2Description {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* style the button of section 2 */
+#section2Description button {
+  background-color: bisque;
+  padding: 10px;
+  align-items: center;
+}
+
+/* style section 3 of website */
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/rocks.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  color: bisque;
+}
+
+/* style title of section 3 */
+#section3Title {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* style images of section 3 */
+#section3Images {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+/* style image of section 3 */
+.images {
+  padding: 10px;
+}
+
+/* style section 3 button */
+#section3Button button {
+  align-items: center;
+  text-align: center;
+  background-color: bisque;
+  padding: 10px;
+}
+
+/* style section 4 of website */
+.section4 {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background-image: url(../images/beach.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 600px;
+}
+
+/* style section 4 title */
+#section4Title {
+  padding-left: 50px;
+  font-size: 20px;
+  margin-bottom: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* style section 4 content */
+#section4Content {
+  margin-right: 10px;
+}
+
+/* style section 5 of website */
+.section5 {
+  background-image: url(../images/water.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 600px;
+}
+
+/* style the fact container */
+.div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+/* style each fact */
+.facts {
+  border-radius: 50%;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+/* style fact headings */
+.facts h1 {
+  text-align: center;
+  color: bisque;
+}
+
+/* style fact writing */
+.facts p {
+  text-align: center;
+  color: bisque;
+}
+
+/* style section 6 of website */
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/rocks.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 600px;
+  color: white;
+}
+
+/* style section 6 container */
+#section6Box {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style section 6 image */
+#section6Image img {
+  border-radius: 50%;
+}
+
+/* style section 7 of website */
+.section7 {
+  display: flex;
+  height: 100px;
+  width: 600px;
+}
+
+/* style section 7 images */
+#section7Images {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+/* style section 8 of website */
+.section8 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+  background-image: url(../images/sunsetbeach.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 600px;
+}
+
+/* style section 8 container */
+#section8 {
+  margin: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* style section 8 title */
+#section8Contact h1 {
+  font-size: 40px;
+  color: white;
+}
+
+/* style paragraph of section 8 */
+#section8Contact p {
+  color: white;
+}
+
+/* style contact image of section 8 */
+#section8Contact img {
+  height: 20px;
+  width: 20px;
+}
+
+/* style contact boxes container */
+#section8ContactBoxes {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+/* style input boxes */
+#section8ContactBoxes input {
+  margin-bottom: 10px;
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+
+/* style name box */
+#name {
+  height: 20px;
+}
+
+/* style email box */
+#email {
+  height: 20px;
+}
+
+/* style message box */
+#message {
+  height: 100px;
+}
+
+/* style contact boxes button */
+#section8ContactBoxes button {
+  align-items: center;
+  text-align: center;
+  background-color: bisque;
+  padding: 5px;
+  width: 50px;
+}
+
+/* style the arrow */
+.arrow {
+  list-style: none;
+}
+/* style dropdown arrow */
+.arrow a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 50px;
+}
+
+/* style dropdown menu */
+.dropdown {
+  display: none;
+}
+
+/* style dropdown with responsive design */
+.arrow:hover .dropdown {
+  display: list-item;
+  justify-content: space-between;
+  list-style: none;
+  background-color: grey;
+  color: aqua;
+}
+
+/* responsive design using CSS media queries */
+@media (max-width: 800px) {
+  /* margin of content */
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /* when mouse goes over the arrow */
+  .arrow a:hover {
+    color: aqua;
+  }
+}
